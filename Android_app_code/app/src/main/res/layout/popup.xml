@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dip"
+        android:layout_marginLeft="100dip"
+        android:text="Hold Tight...."
+        android:textColor="@color/MediumBlue"
+        android:textSize="@dimen/activity_horizontal_margin"
+        tools:textSize="36sp" />
+
+    <TextView
+        android:text="Your drink is in process"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="70dip"
+        android:id="@+id/textView4"
+        android:textColor="@color/MediumBlue"
+        android:textSize="24sp" />
+
+</LinearLayout>
